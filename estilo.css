@@ -1,0 +1,92 @@
+body{
+    background: url(https://img.freepik.com/vetores-gratis/padrao-de-grade-de-losango-dourado-sem-costura-em-fundo-preto_53876-97589.jpg?w=1480&t=st=1663767059~exp=1663767659~hmac=82cb0d3705ecd6088deac5a9f9ab3d420357dfdcd0c80dc347cc577b72f8700f)
+    ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    :root{
+        --cor-de-fundo: #1687ED;
+        --cor-de-fundo: #A91C78;
+    }
+    *{
+        padding: 0px;
+        margin: 0px;
+        font-family: arial;
+    }
+    
+    input{
+        display: block;
+        line-height: 30px;
+        height: 30px;
+        outline: none;
+        font-size: 13pt;
+        width: 100%;
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid black;
+        margin: 5px;
+    }
+    
+    form{
+        width: 330px;
+        background-color: rgba(218, 193, 193, 0.2);
+        padding: 20px;
+        margin: 30px auto;
+        border-radius: 10px;
+    }
+    
+    input[type="submit"]{
+        margin-top: 10px;
+        cursor: pointer;
+        border-radius: 10px;
+        border: none;
+        background-color: black;
+        color: white;
+        font: bolder;
+        text-align: center;
+        width: 100px;
+        height: 50px;
+    }
+    
+    #esquerda{
+        width: 35%;
+        height: 500px;
+        float: left;
+    
+    }
+    h2{
+        text-align: center;
+        color: white;
+    }
+    #direita{
+        width: 65%;
+        height: 500px;
+        float: left;
+    }
+    
+    table{
+        background-color: rgba(196, 20, 20, 0.2);
+        width: 90%;
+        margin: 30px auto;
+        border: 10px;
+        border-radius: 10px;
+    }
+    tr{
+        line-height: 30px;
+    }
+    tr#Titulo{
+        font-weight: bold;
+        background-color: rgba(0,0,0,0.6);
+        color: white;
+    }
+    td{
+        padding: 0px 5px;
+        color: white;
+    }
+    a{
+        background-color: white;
+        color: black;
+        padding: 5px;
+        margin: 0px 5px;
+        text-decoration: none;
+    }
